@@ -1,0 +1,16 @@
+name: lerobot_groot
+run_root: ../runs/lerobot_groot
+method: method.yaml
+data: data/lerobot.yaml
+solver: solver/l4.yaml
+
+policy:
+  kind: groot
+  groot_root: ../Isaac-GR00T
+  checkpoint: checkpoints/groot
+  embodiment_tag: new_embodiment
+  arm_joints: 6
+  camera_keys:
+    head: head
+    left_wrist: left
+    right_wrist: right
