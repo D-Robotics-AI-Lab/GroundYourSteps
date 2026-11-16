@@ -1,0 +1,16 @@
+name: lerobot_pi05
+run_root: ../runs/lerobot_pi05
+method: method.yaml
+data: data/lerobot.yaml
+solver: solver/l4.yaml
+
+policy:
+  kind: openpi
+  openpi_root: ../openpi
+  checkpoint: checkpoints/pi05
+  config_name: your_pi05_training_config
+  use_training_repack: false
+  camera_keys:
+    head: head_cam
+    left_wrist: left_cam
+    right_wrist: right_cam

@@ -1,0 +1,13 @@
+format: lerobot
+dataset_root: datasets/lerobot/{task}
+
+action_key: action
+state_key: observation.state
+action_slice: [0, 14]
+state_slice: [0, 14]
+action_horizon: 32
+
+cameras:
+  head: observation.images.head
+  left_wrist: observation.images.left_wrist
+  right_wrist: observation.images.right_wrist
