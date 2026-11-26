@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://d-robotics-ai-lab.github.io/GroundYourSteps.project/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
-  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg" alt="arXiv Coming Soon">
+  <a href="https://arxiv.org/abs/2611.34148"><img src="https://img.shields.io/badge/arXiv-2611.34148-b31b1b.svg" alt="arXiv 2611.34148"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-76B900.svg" alt="Apache License 2.0"></a>
 </p>
 
@@ -111,3 +111,12 @@ We thank the teams behind [π0.5](https://github.com/Physical-Intelligence/openp
 This project is released under the [Apache License 2.0](LICENSE).
 
 ## Citation
+
+```bibtex
+@article{yang2026ground,
+  title={Ground Your Steps: Optimizing Sampling Schedules in Flow Matching Robot Policies},
+  author={Yang, Licheng and He, Yonghao and Qian, Lingfeng and Shi, Xin and Sui, Wei and Su, Hu},
+  journal={arXiv preprint arXiv:2611.34148},
+  year={2026}
+}
+```
